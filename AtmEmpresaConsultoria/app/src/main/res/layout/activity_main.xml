@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="atmempresaconsultoria.adeilson.com.br.atmempresaconsultoria.MainActivity">
+
+    <ImageView
+        android:id="@+id/empresaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menu_empresa" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/servicoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignTop="@+id/empresaId"
+        android:background="@drawable/menu_servico" />
+
+    <ImageView
+        android:id="@+id/clientesId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/empresaId"
+        android:layout_alignStart="@+id/empresaId"
+        android:layout_below="@+id/empresaId"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/menu_cliente" />
+
+    <ImageView
+        android:id="@+id/contatosId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/servicoId"
+        android:layout_alignStart="@+id/servicoId"
+        android:layout_alignTop="@+id/clientesId"
+        android:background="@drawable/menu_contato" />
+</RelativeLayout>

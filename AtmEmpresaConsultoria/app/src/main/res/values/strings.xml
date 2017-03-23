@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AtmEmpresaConsultoria</string>
+    <string name="sobre_empresa">Sobre a Empresa</string>
+    <string name="detalhe_servico">Serviços</string>
+    <string name="texto_consultoria">Consultoria</string>
+    <string name="texto_processos">Processos</string>
+    <string name="texto_acompanhamento">Acompanhamento e Projetos</string>
+    <string name="texto_cliente">Nossos Clientes</string>
+    <string name="empresa1">Empresa de Software</string>
+    <string name="empresa2">Empresa de Consultoira</string>
+    <string name="texto_contatos">Contatos</string>
+    <string name="email_contato">somothing@email.com</string>
+    <string name="fone1">(82) 3333-2222</string>
+    <string name="fone2">(82) 99999-8888</string>
+</resources>

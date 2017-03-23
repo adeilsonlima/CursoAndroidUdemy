@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="@dimen/dim_padrao"
+    android:paddingLeft="@dimen/dim_padrao"
+    android:paddingRight="@dimen/dim_padrao"
+    tools:context="atmempresaconsultoria.adeilson.com.br.atmempresaconsultoria.EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="@string/sobre_empresa" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="14dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/dim_padrao"
+            android:text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacus arcu, gravida quis tellus id, sollicitudin rhoncus mauris. Duis et ex orci. Integer vel velit neque. Donec quis ex sit amet diam aliquam fermentum nec nec augue. Maecenas quis quam in nunc aliquet vehicula. Vivamus interdum enim nunc, eget malesuada ante mattis nec. Donec vulputate, nisl non hendrerit viverra, purus velit convallis erat, nec vehicula diam elit sed neque.  Morbi magna lorem, ornare eget maximus ac, ullamcorper at leo. Duis at ante tempus, varius augue a, ornare dolor. Vivamus ultricies elit sit amet sagittis semper. Nullam quis faucibus tortor. Aenean velit dui, feugiat et libero ut, congue ultrices leo. Maecenas mattis odio ac massa aliquet, vitae commodo sapien ultricies. Morbi ligula risus, consectetur ac posuere non, tincidunt sed erat. Pellentesque lacinia varius bibendum. In vestibulum velit justo, eu dignissim enim cursus sit amet. Etiam nunc libero, placerat id molestie eu, gravida eu dolor. Integer feugiat neque sit amet lectus venenatis, scelerisque mattis ex imperdiet. Duis massa mi, tristique id velit ac, facilisis iaculis turpis. Nam vitae lorem nec ex volutpat viverra. " />
+    </ScrollView>
+</RelativeLayout>
