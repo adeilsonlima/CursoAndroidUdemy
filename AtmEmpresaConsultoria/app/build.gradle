@@ -4,7 +4,7 @@ android {
     compileSdkVersion 22
     buildToolsVersion "25.0.1"
     defaultConfig {
-        applicationId "atmempresaconsultoria.adeilson.com.br.atmempresaconsultoria"
+        applicationId "br.com.adeilson.udemy.atmempresaconsultoria"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1

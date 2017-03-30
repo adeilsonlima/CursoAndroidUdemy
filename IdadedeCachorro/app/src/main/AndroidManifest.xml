@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="idadecachorro.adeilson.com.br.idadedecachorro">
+    package="br.com.adeilson.udemy.idadedecachorro">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/cachorro"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">

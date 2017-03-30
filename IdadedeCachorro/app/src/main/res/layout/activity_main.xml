@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_bright"
-    tools:context="idadecachorro.adeilson.com.br.idadedecachorro.MainActivity">
+    tools:context="br.com.adeilson.udemy.idadedecachorro.MainActivity">
 
     <ImageView
         android:id="@+id/imageView2"

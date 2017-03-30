@@ -4,7 +4,7 @@ android {
     compileSdkVersion 22
     buildToolsVersion "25.0.1"
     defaultConfig {
-        applicationId "gasolinaoualcool.adeilson.com.br.gasolinaoualcool"
+        applicationId "br.com.adeilson.udemy.gasolinaoualcool"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1

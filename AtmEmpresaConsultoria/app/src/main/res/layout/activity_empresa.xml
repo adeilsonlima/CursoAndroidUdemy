@@ -8,7 +8,7 @@
     android:padding="@dimen/dim_padrao"
     android:paddingLeft="@dimen/dim_padrao"
     android:paddingRight="@dimen/dim_padrao"
-    tools:context="atmempresaconsultoria.adeilson.com.br.atmempresaconsultoria.EmpresaActivity">
+    tools:context="br.com.adeilson.udemy.atmempresaconsultoria.EmpresaActivity">
 
     <ImageView
         android:id="@+id/imageView"

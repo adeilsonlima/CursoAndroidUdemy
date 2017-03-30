@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="atmempresaconsultoria.adeilson.com.br.atmempresaconsultoria.ClientesActivity">
+    tools:context="br.com.adeilson.udemy.atmempresaconsultoria.ClientesActivity">
 
     <ImageView
         android:id="@+id/imageView4"

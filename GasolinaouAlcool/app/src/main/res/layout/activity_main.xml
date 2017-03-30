@@ -1,99 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#94bd31"
-    tools:context="gasolinaoualcool.adeilson.com.br.gasolinaoualcool.MainActivity">
+    tools:context="br.com.adeilson.udemy.gasolinaoualcool.MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="300dp"
         android:layout_height="81dp"
         android:background="@drawable/logo"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="130dp"
-        android:layout_height="26dp"
-        android:layout_marginLeft="42dp"
-        android:text="@string/preco_gasolina"
-        android:textColor="#415C00"
-        android:textSize="18sp"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/textView2"
-        android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.343" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="130dp"
         android:layout_height="26dp"
         android:text="@string/preco_alcool"
+        android:textAlignment="center"
         android:textColor="#415c00"
         android:textSize="18sp"
-        android:layout_marginRight="50dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="34dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/precoGasolinaId"
+        android:layout_alignStart="@+id/precoGasolinaId" />
 
-    <EditText
-        android:id="@+id/precoGasolinaId"
-        android:layout_width="138dp"
-        android:layout_height="46dp"
-        android:background="@android:color/white"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:padding="@dimen/padding_caixa_texto"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/precoAlcoolId"
-        android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.681"
-        app:layout_constraintBaseline_toBaselineOf="@+id/precoAlcoolId" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="130dp"
+        android:layout_height="26dp"
+        android:text="@string/preco_gasolina"
+        android:textAlignment="center"
+        android:textColor="#415C00"
+        android:textSize="18sp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/precoAlcoolId"
+        android:layout_alignStart="@+id/precoAlcoolId"
+        android:layout_marginTop="59dp" />
 
     <EditText
         android:id="@+id/precoAlcoolId"
-        android:layout_width="138dp"
+        android:layout_width="130dp"
         android:layout_height="46dp"
-        android:layout_marginRight="9dp"
-        android:layout_marginTop="29dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="101dp"
         android:background="@android:color/white"
         android:ems="10"
         android:inputType="numberDecimal"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/precoGasolinaId"
+        android:layout_width="130dp"
+        android:layout_height="46dp"
+        android:layout_alignBottom="@+id/precoAlcoolId"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:padding="@dimen/padding_caixa_texto" />
+
+
 
     <Button
         android:id="@+id/botaoVerificarId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/texto_botao_verificar"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="33dp"
-        app:layout_constraintTop_toBottomOf="@+id/precoGasolinaId" />
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/precoAlcoolId"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/textViewMsgId"
         android:layout_width="341dp"
         android:layout_height="58dp"
-        android:layout_marginTop="53dp"
         android:textColor="#415C00"
-        app:layout_constraintTop_toBottomOf="@+id/botaoVerificarId"
-        android:layout_marginRight="8dp"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteX="-38dp" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_below="@+id/botaoVerificarId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+</RelativeLayout>

@@ -8,19 +8,18 @@
     tools:context="br.com.adeilson.caraoucoroa.Resultado">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/moedaId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/moeda_cara" />
+        android:layout_marginTop="40dp" />
 
     <ImageView
         android:id="@+id/botaoVoltarId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView2"
+        android:layout_below="@+id/moedaId"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="44dp"
         android:background="@drawable/botao_voltar" />
